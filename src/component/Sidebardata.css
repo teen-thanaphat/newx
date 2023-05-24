@@ -1,0 +1,38 @@
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the side navigation */
+  .sidenav1 {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav1 a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font: 1em sans-serif;
+  }
+  
+  /* Change color on hover */
+  .sidenav1 a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content1 {
+    margin-left: 120px;
+  }

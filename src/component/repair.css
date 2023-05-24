@@ -1,0 +1,203 @@
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 1000px) {
+    /* Center the form */
+
+    form {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    /* Style labels and inputs */
+    label {
+      margin-top: 10px;
+    }
+    
+    input {
+      width: 80%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: #f1f1f1;
+    }
+    
+    select {
+      width: 80%;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+     
+      background-color: #f1f1f1;
+    }
+    
+    /* Style the webcam capture button */
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Style the submit button */
+    .submit {
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Style the image */
+    img {
+      width: 80%;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  }
+  
+/* Styles for mobile devices */
+@media only screen and (max-width: 820px ) and (min-height: 1000px) { 
+  /* Center the form */
+  .topic{
+    margin-left: 100px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+  }
+  
+  /* Style labels and inputs */
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+   
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the webcam capture button */
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button */
+  .submit {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  /* Style the image */
+  img {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 300px ) and (min-height: 640px) { 
+  /* Center the form */
+  .topic{
+    margin-left: 0px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    
+  }
+  
+  /* Style labels and inputs */
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  select {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+   
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the webcam capture button */
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button */
+  .submit {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the image */
+  img {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+}
